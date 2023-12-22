@@ -1,0 +1,26 @@
+.header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header h3 {
+  font-size: 30px;
+  color: rgb(70, 8, 70);
+}
+.header nav ul {
+  display: flex;
+  gap: 30px;
+}
+.header nav ul li:hover {
+  background-color: rgb(70, 8, 70);
+  border-radius: 12px;
+  padding: 5px;
+}
+.header nav ul li:hover a {
+  color: white;
+}
+.header nav ul a {
+  color: rgb(70, 8, 70);
+  font-size: 20px;
+}/*# sourceMappingURL=index.css.map */
